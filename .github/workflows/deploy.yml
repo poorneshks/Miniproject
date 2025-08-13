@@ -26,5 +26,5 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
-          app-name: your-app-service-name
+          app-name: miniappcrick
           package: .
